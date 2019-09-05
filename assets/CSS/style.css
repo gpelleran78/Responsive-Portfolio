@@ -52,7 +52,7 @@ h2,h3{
     width: 100%;
 }
 /*Name tag in the header*/
-#logo{
+#epithet{
     width: 350px;
     height: 90px;
     background: #4aaaa5;
@@ -92,10 +92,10 @@ nav a:first-child{
 
 .main-section{
     background: #fff;
-    padding: 30px;
-    margin: 0 0 40px 0;
+    padding: 70px;
+    margin: 40px 0;
     width: 100%;
-    max-width: 650px;
+    max-width: 946px;
     float: left;
     border: 1px solid #ddd;
 }
@@ -120,7 +120,7 @@ footer{
 }
 
 /*portfolio page*/
-.work{
+.game{
     width: 274px;
     overflow: auto;
     position: relative;
@@ -128,11 +128,16 @@ footer{
     margin: 20px 0 25px
 }
 
-.work:nth-child(even){
+.game img{
+    width: 100%;
+    border: none;
+}
+
+.game:nth-child(even){
     margin-right: 40px;
 }
 
-.work h3{
+.game h3{
     border-bottom: 0;
     background: #4aaaa5;
     color: #fff;
