@@ -189,4 +189,28 @@ footer{
         cursor: pointer;
     }
 
+@media only screen and (max-width:1080px){
+    .container{
+        padding: 0 20px;
+        max-width: 768;
+    }
+
+    #main.container{
+        padding-top: 130px;
+    }
+
+    .main-section{
+        max-width: 420px;
+    }
+
+    .game{
+        width: 100%;
+    }
+
+    .auth-picture{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
 
